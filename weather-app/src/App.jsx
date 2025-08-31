@@ -1,10 +1,10 @@
-import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <Weather />
+    </div>
   );
 }
 
